@@ -1,0 +1,13 @@
+.section-title {
+	background: linear-gradient(45deg, #f8f8f8 0%, #fff 98.61%);
+	margin-right: -16px;
+	padding: 16px 0;
+	border-top: 1px solid var(--color-lite-green);
+}
+.section-title__text {
+	color: #7e7e82;
+	line-height: 150%;
+	letter-spacing: -0.2px;
+	text-transform: uppercase;
+	color: var(--color-grey);
+}

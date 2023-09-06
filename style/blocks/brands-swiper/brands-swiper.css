@@ -1,0 +1,33 @@
+.brands__swiper {
+}
+.brands-swiper {
+}
+.brands-swiper__wrapper {
+	height: 100px;
+}
+.brands-swiper__slide {
+}
+.brands-swiper__btn {
+}
+.show-all {
+	display: none;
+}
+.show-all__btn {
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	bottom: 0 !important;
+}
+
+@media (min-width: 768px) {
+	.brands-swiper__wrapper {
+		height: 160px;
+		overflow: hidden;
+	}
+	.show-all {
+		display: flex;
+	}
+}
